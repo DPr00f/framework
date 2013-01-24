@@ -13,3 +13,6 @@
 - Changed default PDO case constant to `CASE_NATURAL`.
 - `DB::table('foo')->truncate()` now available on all supported databases.
 - Fixed Twitter Bootstrap compatibility in Paginator.
+- Allow multiple views to be passed to `View::composer`.
+- Added `Request::segment` method.
+- No need to prefix Translator methods with colons anymore.
